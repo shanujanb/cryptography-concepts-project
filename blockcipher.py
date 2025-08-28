@@ -1,5 +1,5 @@
+#Cryptographic Concepts - Assignment Part 1 
 #Name = Shanujan Baskaran
-#Student No = 10696455
 
 # CONFIGURATION SECTION
 
@@ -133,4 +133,5 @@ try:
 except ValueError as e:
     print(f"Error: {e}")  # Print any key/IV length errors
 except Exception as e:
+
     print(f"An unexpected error occurred: {e}")  # Catch-all for any other errors
