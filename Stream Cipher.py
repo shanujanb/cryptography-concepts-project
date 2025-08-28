@@ -1,5 +1,5 @@
 #Cryptographic Concepts - Assignment Part 1 
-#Saneth Fernando - 10696577
+#Saneth Fernando 
 #Enhanced Stream Cipher for ABSecure
 
 #When prompted, enter a numeric key (e.g.123456) and press Enter.
@@ -83,4 +83,5 @@ if __name__ == "__main__":
     #Decrypt and verify
     decrypted = decrypt(encrypted, key, iv)
     print("\nDecrypted Message:", decrypted)
+
 
